@@ -38,11 +38,14 @@ export type ProjectCard = {
   description: string;
   stack: string[];
   status: "Internal" | "Stable" | "Shipped" | "Scaling";
+  demoUrl?: string;
+  githubUrl?: string;
   visual:
     | "erp"
     | "wms"
     | "pos"
     | "hres"
     | "inventory"
-    | "finance";
+    | "finance"
+    | "shiba";
 };

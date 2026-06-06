@@ -12,6 +12,7 @@ import { FeaturedProjectsSection } from "@/sections/featured-projects-section";
 import { Footer } from "@/sections/footer";
 import { HeroSection } from "@/sections/hero-section";
 import { Navbar } from "@/sections/navbar";
+import { OtherProjectsSection } from "@/sections/other-projects-section";
 import { TechStackSection } from "@/sections/tech-stack-section";
 
 export function PortfolioPage() {
@@ -44,6 +45,7 @@ export function PortfolioPage() {
           <ExperienceSection />
           <TechStackSection />
           <FeaturedProjectsSection />
+          <OtherProjectsSection />
           <ContactSection />
         </motion.main>
         <Footer />

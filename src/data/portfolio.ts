@@ -13,6 +13,7 @@ export const navigation: NavItem[] = [
   { id: "experience", label: "Experience" },
   { id: "stack", label: "Stack" },
   { id: "featured-projects", label: "Projects" },
+  { id: "other-projects", label: "More Work" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -114,6 +115,15 @@ export const featuredProjects: FeaturedProject[] = [
 ];
 
 export const otherProjects: ProjectCard[] = [
+  {
+    title: "Shiba Project",
+    description:
+      "A live web project published as a standalone product-facing experience with a cleaner presentation and direct public access.",
+    stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    status: "Shipped",
+    demoUrl: "https://shiba-project.vercel.app/",
+    visual: "shiba",
+  },
   {
     title: "ERP Management System",
     description: "Operational workflows, approvals, and reporting designed for internal business teams.",

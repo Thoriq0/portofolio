@@ -1,10 +1,11 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 import { InteractiveCard } from "@/components/portfolio/interactive-card";
 import { ProjectVisual } from "@/components/portfolio/project-visual";
 import { Reveal } from "@/components/portfolio/reveal";
 import { SectionHeading } from "@/components/portfolio/section-heading";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { otherProjects } from "@/data/portfolio";
 
@@ -41,9 +42,19 @@ export function OtherProjectsSection() {
                       ))}
                     </div>
 
-                    <div className="mt-auto flex items-center gap-2 text-sm text-cyan-200">
-                      Explore system profile
-                      <ArrowRight className="size-4" />
+                    <div className="mt-auto flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 text-sm text-cyan-200">
+                        {project.demoUrl ? "Live project" : "Explore system profile"}
+                        <ArrowRight className="size-4" />
+                      </div>
+                      {project.demoUrl ? (
+                        <Button asChild size="default" variant="secondary">
+                          <a href={project.demoUrl} target="_blank" rel="noreferrer">
+                            Live Demo
+                            <ArrowUpRight className="size-4" />
+                          </a>
+                        </Button>
+                      ) : null}
                     </div>
                   </CardContent>
                 </Card>

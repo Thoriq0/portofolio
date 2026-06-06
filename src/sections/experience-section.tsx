@@ -14,7 +14,7 @@ export function ExperienceSection() {
           <SectionHeading
             label="Experience"
             title="Delivering reliable product work inside complex business environments."
-            description="Over the last 1 year and 5 months at PT.Global Edutek Solusindo, I have worked on enterprise software with a mix of bug fixing, maintenance, feature delivery, and workflow optimization."
+            description="Over the last 1 year and 7 months at PT.Global Edutek Solusindo, I have worked on enterprise software with a mix of bug fixing, maintenance, feature delivery, and workflow optimization."
           />
         </Reveal>
 
@@ -30,7 +30,7 @@ export function ExperienceSection() {
                     Fullstack Developer
                   </h3>
                   <p className="mt-2 text-white/56">
-                    1 year 5 months · Coordinated with Rafael · Fast-moving enterprise delivery
+                    1 year 7 months · Coordinated with Rafael · Fast-moving enterprise delivery
                   </p>
                 </div>
                 <div className="rounded-[26px] border border-white/8 bg-white/4 p-5">
