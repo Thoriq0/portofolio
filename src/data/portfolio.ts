@@ -127,7 +127,7 @@ export const otherProjects: ProjectCard[] = [
   {
     title: "Journal System",
     description:
-      "A web-based journal and finance workflow project built around practical admin flows, reactive interfaces, and a cleaner internal operating experience.",
+      "A personal writing space for tutorials, daily thoughts, short complaints, and short stories, built to make publishing and organizing notes feel simple and comfortable.",
     stack: ["Laravel", "Livewire", "Alpine.js", "Flux UI"],
     status: "Shipped",
     demoUrl: "https://journal.thorz.my.id",

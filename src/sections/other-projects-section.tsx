@@ -18,8 +18,8 @@ export function OtherProjectsSection() {
         <Reveal>
           <SectionHeading
             label="Other Projects"
-            title="A broader system portfolio shaped by operational complexity."
-            description="From internal dashboards to workflow-heavy business systems, these projects reflect the day-to-day work of shipping and maintaining enterprise software."
+            title="Personal projects I build in my spare time."
+            description="These are side projects I use to explore ideas, try different stacks, and build things that feel more personal outside my day-to-day enterprise work."
           />
         </Reveal>
 
