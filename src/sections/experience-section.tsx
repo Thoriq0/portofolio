@@ -14,7 +14,7 @@ export function ExperienceSection() {
           <SectionHeading
             label="Experience"
             title="Delivering reliable product work inside complex business environments."
-            description="Over the last 1 year and 5 months at PT.Global Edutek Sulusindo, I have worked on enterprise software with a mix of bug fixing, maintenance, feature delivery, and workflow optimization."
+            description="Over the last 1 year and 5 months at PT.Global Edutek Solusindo, I have worked on enterprise software with a mix of bug fixing, maintenance, feature delivery, and workflow optimization."
           />
         </Reveal>
 
@@ -23,7 +23,7 @@ export function ExperienceSection() {
             <CardContent className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
               <div className="space-y-5">
                 <Badge variant="accent" className="w-fit">
-                  PT.Global Edutek Sulusindo
+                  PT.Global Edutek Solusindo
                 </Badge>
                 <div>
                   <h3 className="text-2xl font-semibold tracking-[-0.04em] text-white">

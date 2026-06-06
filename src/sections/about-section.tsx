@@ -16,7 +16,7 @@ export function AboutSection() {
             <SectionHeading
               label="About"
               title="I build with production constraints in mind."
-              description="I have spent 1 year and 5 months at PT Global Digital Solutions Indo working on enterprise applications, mostly in environments where the real job is understanding existing systems, fixing what is already live, and improving flows without breaking the business around them."
+              description="I have spent 1 year and 5 months at PT.Global Edutek Solusindo working on enterprise applications, mostly in environments where the real job is understanding existing systems, fixing what is already live, and improving flows without breaking the business around them."
             />
           </Reveal>
 
