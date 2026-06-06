@@ -47,5 +47,6 @@ export type ProjectCard = {
     | "hres"
     | "inventory"
     | "finance"
-    | "shiba";
+    | "shiba"
+    | "journal";
 };

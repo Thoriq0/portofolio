@@ -11,7 +11,8 @@ type ProjectVisualVariant =
   | "hres"
   | "inventory"
   | "finance"
-  | "shiba";
+  | "shiba"
+  | "journal";
 
 type ProjectVisualProps = {
   variant: ProjectVisualVariant;
@@ -30,6 +31,7 @@ const labels: Record<ProjectVisualVariant, string[]> = {
   inventory: ["Alerts", "Trends", "Snapshots"],
   finance: ["Cash flow", "Summary", "Traces"],
   shiba: ["Public launch", "Live website", "Product UI"],
+  journal: ["Ledger flow", "Livewire UI", "Admin tools"],
 };
 
 const accents: Record<ProjectVisualVariant, string> = {
@@ -42,6 +44,7 @@ const accents: Record<ProjectVisualVariant, string> = {
   inventory: "from-cyan-400/25 via-blue-500/18 to-teal-500/18",
   finance: "from-amber-300/25 via-orange-500/18 to-rose-500/18",
   shiba: "from-cyan-300/25 via-indigo-500/18 to-sky-500/18",
+  journal: "from-emerald-300/25 via-teal-500/18 to-cyan-500/18",
 };
 
 export function ProjectVisual({

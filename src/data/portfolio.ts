@@ -118,11 +118,20 @@ export const otherProjects: ProjectCard[] = [
   {
     title: "Shiba Project",
     description:
-      "A live web project published as a standalone product-facing experience with a cleaner presentation and direct public access.",
-    stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+      "A public disaster information website built to present daily reporting, location context, and accessible information in a clearer web experience.",
+    stack: ["JavaScript", "Webpack", "Tailwind CSS 3", "Flowbite", "Leaflet"],
     status: "Shipped",
     demoUrl: "https://shiba-project.vercel.app/",
     visual: "shiba",
+  },
+  {
+    title: "Journal System",
+    description:
+      "A web-based journal and finance workflow project built around practical admin flows, reactive interfaces, and a cleaner internal operating experience.",
+    stack: ["Laravel", "Livewire", "Alpine.js", "Flux UI"],
+    status: "Shipped",
+    demoUrl: "https://journal.thorz.my.id",
+    visual: "journal",
   },
   {
     title: "ERP Management System",

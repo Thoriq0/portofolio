@@ -10,6 +10,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { otherProjects } from "@/data/portfolio";
 
 export function OtherProjectsSection() {
+  const visibleProjects = otherProjects.slice(0, 3);
+
   return (
     <section id="other-projects" className="section-shell">
       <div className="container-shell space-y-12">
@@ -22,7 +24,7 @@ export function OtherProjectsSection() {
         </Reveal>
 
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-          {otherProjects.map((project, index) => (
+          {visibleProjects.map((project, index) => (
             <Reveal key={project.title} delay={index * 0.03}>
               <InteractiveCard>
                 <Card data-cursor="spotlight" className="h-full">
